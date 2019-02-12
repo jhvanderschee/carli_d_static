@@ -27,7 +27,7 @@ KLEUREN
 .yellow {background-color: #f1d932!important;}
 .green {background-color: #3eb73c!important; color: white;}
 .gray {background-color: #d6d8d5!important;}
-.darkred {background-color: #A90000!important;}
+.darkred {background-color: #A90000!important; color: white;}
 
 
 .logo, #menutoggle {position: absolute; top: 15px; left: 30px; width: 70px;}
