@@ -21,14 +21,13 @@ img {max-width: 100%;}
 .section .img {position: absolute; z-index: 0;}
 .section .img img {width: 100%; display: block;}
 
-KLEUREN
+/* KLEUREN */
 .lightgray {background-color: #ecebe8!important;}
 .lightgreen {background-color: #cdedca!important;}
 .yellow {background-color: #f1d932!important;}
 .green {background-color: #3eb73c!important; color: white;}
 .gray {background-color: #d6d8d5!important;}
 .darkred {background-color: #A90000!important; color: white;}
-
 
 .logo, #menutoggle {position: absolute; top: 15px; left: 30px; width: 70px;}
 #menutoggle {cursor: pointer; left: auto; right: 30px; width: 30px; top: 17px;}
