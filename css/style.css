@@ -41,7 +41,7 @@ KLEUREN
 .menu li {list-style: none; text-align: center;}
 .menu a {color: white; text-decoration: none; text-transform: uppercase; display: block; padding: 5px 15px; font-size: 20px;}
 strong {color: #3eb73c; font-weight: normal;}
-em {background: white; font-style: normal}
+em.highlight {background: white; font-style: normal}
 p {margin-bottom: 1.4em;}
 p:last-child {margin-bottom: 0;}
 .carousel {overflow: hidden; padding: 0;}
