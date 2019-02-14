@@ -61,6 +61,7 @@ p:last-child {margin-bottom: 0;}
 .bloglink {border: 1px solid #E94927; position: relative; background: white; font-size: 20px; line-height: 1.2; display: block; text-decoration: none; color: black; padding: 8px 10px 10px 90px; margin-top: 15px;}
 .bloglink span {width: 80px; top: 0; display: block; height: 100%; position: absolute; margin-left: -90px;}
 .blogcontent {padding: 10px 15px; border: 1px solid #E94927; border-top: 0;}
+.blogcontent a {color: #E94927;}
 .downloadlink {transition: all 0.3s ease-in-out; overflow: auto; position: relative; background: #E94927; color: white; display: block; font-size: 19px; line-height: 1.2; text-decoration: none; padding: 9px 17px; margin: 10px 0 20px;}
 .downloadlink img {position: relative; bottom: 1px; width: 50px; float: left; margin-right: 24px;}
 .downloadlink span {font-size: 14px;}
