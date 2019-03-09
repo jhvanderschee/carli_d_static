@@ -12,7 +12,13 @@
          url('/fonts/abel-v8-latin-regular.svg#Abel') format('svg'); /* Legacy iOS */
 }
 * {padding: 0; margin: 0;}
-body {background: #eee; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4;}
+body {background: #ddd; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4;}
+#innerbody {width: 100%;}
+@media (min-width: 1000px) and (min-height: 800px) {
+    body {background: #ddd url(/img/apple-iphone-5s.svg) center center / 460px auto no-repeat;}
+    body, html {height: 100%;}
+    #phone body {overflow-x:hidden;}
+}
 #top {background: white; width: 400px; margin: 0 auto; position: relative;}
 .header {position: absolute; top: 0; width: 400px; margin: 0 auto; height: 60px; z-index: 3; background: white;}
 img {max-width: 100%;}
@@ -72,3 +78,14 @@ p:last-child {margin-bottom: 0;}
 h2 {font-size: 16px;}
 @keyframes spin {from{transform: rotate(0deg);}to{transform: rotate(360deg);}}
 .rotating:hover {animation-name: spin; animation-duration: 300ms; animation-iteration-count: infinite; animation-timing-function: linear;}
+
+
+
+/* way the hell off screen */
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}
