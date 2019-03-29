@@ -12,10 +12,10 @@
          url('/fonts/abel-v8-latin-regular.svg#Abel') format('svg'); /* Legacy iOS */
 }
 * {padding: 0; margin: 0;}
-body {background: #ddd; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4;}
+body {background: #d4d6d5; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4;}
 #innerbody {width: 100%;}
 @media (min-width: 1000px) and (min-height: 800px) {
-    body {background: #ddd url(/img/apple-iphone-5s.svg) center center / 460px auto no-repeat;}
+    body {background: #d4d6d5 url(/img/bg.png) center center / auto 967px no-repeat;}
     body, html {height: 100%;}
     #phone body {overflow-x:hidden;}
 }
