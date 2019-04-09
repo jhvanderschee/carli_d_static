@@ -69,7 +69,7 @@ function showinphone() {
     // Delete the DIV 
     document.body.removeChild(scrollDiv);
     
-    if(window.innerWidth > 1000 && window.innerHeight > 800) {
+    if(window.innerWidth > 1000 && window.innerHeight > 600) {
         if(!document.body.contains(document.getElementById('phone'))) {
             var iframewidth = 400 + scrollbarWidth;
             document.getElementById('body').innerHTML = "<iframe id='phone' src='"+window.location.href +"' style='width: "+iframewidth+"px; border: 0; position: fixed; height: 700px; overflow: hidden; overflow-y: scroll; left: 50%; top: 50%; margin-left: -193px; margin-top: -347px;'></iframe>";
