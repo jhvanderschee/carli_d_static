@@ -12,6 +12,7 @@
          url('/fonts/abel-v8-latin-regular.svg#Abel') format('svg'); /* Legacy iOS */
 }
 * {padding: 0; margin: 0;}
+a {color: #E94927;}
 body {background: #d4d6d5; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4;}
 #innerbody {width: 100%;}
 @media (min-width: 1000px) and (min-height: 800px) {
