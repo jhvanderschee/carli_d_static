@@ -84,6 +84,10 @@ function windowScroll() {
         document.body.classList.remove('scrolled');
     }
 }
+function formToggle() {
+    document.getElementById('toggleformdiv').style.display='none';
+    document.getElementById('toggleform').style.display='block';
+}
 function menuToggle() {
     var img = document.getElementById('menutoggle');
     var menu = img.nextElementSibling;
