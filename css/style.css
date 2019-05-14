@@ -64,17 +64,20 @@ p:last-child {margin-bottom: 0;}
 .smaller {font-size: 12px; line-height: 1.2;}
 .button {cursor: pointer; background: #E94927; display: inline-block; border: 0; padding: 0 5px 1px; color: white; text-decoration: none; text-transform: uppercase; font-size: 16px; transition: all 0.3s ease-in-out;}
 input {background: white; border: 0; display: block; padding: 5px 5px; width: calc(100% - 10px); font-family: 'Abel'; font-size: 20px;}
-input[type="submit"].button {height: 44px; line-height: 44px; padding: 0; width: 100%; text-transform: none;}
+input[type="submit"].button {height: 44px; line-height: 44px; padding: 0; width: 100%; text-transform: none; margin-top: 15px;}
 .button:hover {background: #f1d932; color: black;}
 .button.large {display: block; text-align: center; margin-bottom: 20px; padding: 8px 15px; font-size: 20px; text-transform: none;}
 .bloglink {border: 1px solid #E94927; position: relative; background: white; font-size: 20px; line-height: 1.2; display: block; text-decoration: none; color: black; padding: 8px 10px 10px 90px; margin-top: 15px;}
 .bloglink span {width: 80px; top: 0; display: block; height: 100%; position: absolute; margin-left: -90px;}
 .blogcontent {padding: 10px 15px; border: 1px solid #E94927; border-top: 0;}
 .blogcontent a {color: #E94927;}
-.blogrequest {padding: 15px 15px 15px;}
+.blogrequest {padding: 15px 15px 15px; margin: 0 -15px -10px;}
 .blogrequest > * > * {margin-bottom: 10px!important;}
+.blogrequest > * > *:last-child {margin-bottom: 5px!important;}
+.blogrequest > * > *:first-child {margin-bottom: 15px!important;}
 .blogrequest form {display: none;}
-.blogrequest .button:hover {background: #3eb73c; color: white;}
+.blogrequest .button {background: #f1d932; color: black;}
+.blogrequest .button:hover {background: #E94927; color: white;}
 .downloadlink {transition: all 0.3s ease-in-out; overflow: auto; position: relative; background: #E94927; color: white; display: block; font-size: 19px; line-height: 1.2; text-decoration: none; padding: 9px 17px; margin: 10px 0 20px;}
 .downloadlink img {position: relative; bottom: 1px; width: 50px; float: left; margin-right: 24px;}
 .downloadlink span {font-size: 14px;}
