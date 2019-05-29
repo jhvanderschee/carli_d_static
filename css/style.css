@@ -75,8 +75,9 @@ input[type="submit"].button {height: 44px; line-height: 44px; padding: 0; width:
 .blogrequest > * > * {margin-bottom: 10px!important;}
 .blogrequest > * > *:last-child {margin-bottom: 5px!important;}
 .blogrequest > * > *:first-child {margin-bottom: 15px!important;}
+.blogrequest > *:first-child img {float: left; height: 146px; margin-right: 15px;}
 .blogrequest form {display: none;}
-.blogrequest .button {background: #f1d932; color: black;}
+.blogrequest .button {display: inline-block; background: #f1d932; color: black;}
 .blogrequest .button:hover {background: #E94927; color: white;}
 .downloadlink {transition: all 0.3s ease-in-out; overflow: auto; position: relative; background: #E94927; color: white; display: block; font-size: 19px; line-height: 1.2; text-decoration: none; padding: 9px 17px; margin: 10px 0 20px;}
 .downloadlink img {position: relative; bottom: 1px; width: 50px; float: left; margin-right: 24px;}
