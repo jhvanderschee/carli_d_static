@@ -13,7 +13,7 @@
 }
 * {padding: 0; margin: 0;}
 a {color: #E94927;}
-body {background: #d4d6d5; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4;}
+body {background: #d4d6d5; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4; overflow-y: scroll;}
 #innerbody {width: 100%;}
 @media (min-width: 1000px) and (min-height: 800px) {
     body {background: #d4d6d5 url(/img/bg.png) center center / auto 967px no-repeat;}
