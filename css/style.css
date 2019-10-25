@@ -138,16 +138,22 @@ commented bacuse part of inphone display (no longer used)
     .itemholder.twoup {overflow: hidden;}
     .itemholder.twoup .item {float: left; width: calc(50% - 10px); margin-right: 20px;}
     #portfolio .itemholder.twoup .item > div:nth-child(1) {margin-top: 50px!important;}
-    .itemholder.twoup .item:nth-child(2), .itemholder.twoup .item:nth-child(4) {margin-right: 0;}
+    .itemholder.twoup .item:nth-child(even) {margin-right: 0;}
     .section {text-align: center;}
     .section .slide {text-align: left;}
     .section.green p {max-width: 700px; margin-left: auto; margin-right: auto;}
     #portfolio, #blogs, #reviews, #communicatiemiddelen, #contact, .sectionholder.twoup .section > p {text-align: center;}
     #portfolio .itemholder, #blogs .bloglink, .imagesleft {text-align: left;}
     #portfolio .itemholder, #blogs .bloglink, .itemholder.twoup {max-width: 850px; margin-left: auto; margin-right: auto;}
-    #blogs .bloglink {max-width: 328px;}
+    .bloglink {max-width: 328px!important; margin-left: auto; margin-right: auto;}
     #contact .imagesleft {margin: 0 auto;}
-    .itemholder .item {text-align: left;}
+    .itemholder .item, .bloglink {text-align: left;}
+    .imageholder {margin-left: auto!important; margin-right: auto!important; margin-top: 15px!important; margin-bottom: 20px!important;}
+    .imageholder + div {max-width: 430px; text-align: left; margin-left: auto; margin-right: auto;}
+    .imageholder #currentimage {max-width: 630px!important; height: 395px!important;}
+    .imageholder {max-width: 630px!important;}
+    .blogcontent {max-width: 398px; margin-left: auto; margin-right: auto; text-align: left;}
+    body.communicatiemiddelen .section {max-width: 450px; margin-left: auto; margin-right: auto;}
 }
 
 @media (min-width: 900px) {
