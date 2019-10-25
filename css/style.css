@@ -154,6 +154,7 @@ commented bacuse part of inphone display (no longer used)
     .imageholder {max-width: 630px!important;}
     .blogcontent {max-width: 398px; margin-left: auto; margin-right: auto; text-align: left;}
     body.communicatiemiddelen .section {max-width: 450px; margin-left: auto; margin-right: auto;}
+    p img {min-width: 100%; height: auto;}
 }
 
 @media (min-width: 900px) {
