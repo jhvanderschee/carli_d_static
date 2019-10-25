@@ -57,7 +57,7 @@ function scrollPageTo(event) {
 function resizeAll() {
 }
 function documentReady() {
-    showinphone();
+    //showinphone();
 }
 function showinphone() {
     // Create the measurement node

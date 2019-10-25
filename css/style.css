@@ -13,13 +13,18 @@
 }
 * {padding: 0; margin: 0;}
 a {color: #E94927;}
+body, html {height: 100%;}
 body {background: #d4d6d5; font-family: 'Abel'; font-size: 16px; color: black; line-height: 1.4; overflow-y: scroll;}
 #innerbody {width: 100%;}
+/*
+commented bacuse part of inphone display (no longer used)
+------------
 @media (min-width: 1000px) and (min-height: 800px) {
     body {background: #d4d6d5 url(/img/bg.png) center center / auto 967px no-repeat;}
     body, html {height: 100%;}
     #phone body {overflow-x:hidden;}
 }
+*/
 #top {background: white; width: 400px; margin: 0 auto; position: relative;}
 .header {position: absolute; top: 0; width: 400px; margin: 0 auto; height: 60px; z-index: 3; background: white;}
 .headertext {display: block; padding: 12px 0 0 110px; color: #3eb73c; font-size: 12px; line-height: 1.3;}
@@ -95,11 +100,51 @@ h2 {font-size: 16px;}
 .hoekje {background: url(/img/hoekje.png) center center / cover no-repeat; color: #E94927; text-decoration: none; width: 80px; height: 10px; position: absolute; margin-top: -79px; right: 30px; text-transform: uppercase; font-size: 12px; line-height: 1em; padding: 55px 0 15px; text-align: right;}
 
 
-/* way the hell off screen */
+/* way off screen 
+commented bacuse part of inphone display (no longer used)
+------
 .scrollbar-measure {
 	width: 100px;
 	height: 100px;
 	overflow: scroll;
 	position: absolute;
 	top: -9999px;
+}
+*/
+
+@media (min-width: 600px) {
+    #top, .header {width: 100%; max-width: 1200px;}
+    .section, .carousel .navigation {padding: 40px 60px 45px;}
+    .sectionholder, .imagesleft {overflow: auto;}
+    .section.carousel {padding: 0;}
+    .hoekje {right: 0px;}
+    .logo, #menutoggle {left: 60px;}
+    #menutoggle {left: auto; right: 60px;}
+    .headertext {padding: 12px 0 0 180px;}
+    .scrolled .headertext {padding-left: 160px;}
+    .button.large {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body.home .header + .section > div {
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+    }
+    body.home .header + .section > div:nth-child(1) {margin-left: -72px;}
+    body.home .header + .section > div:nth-child(2) {margin-left: 120px;}
+    .section.lightgray + .sectionholder.twoup > .lightgray {padding-top: 25px;}
+    .itemholder.threeup {overflow: hidden;}
+    .itemholder.threeup .item {float: left; width: calc(50% - 10px); margin-right: 20px;}
+    .itemholder.threeup .item > div:nth-child(1) {margin-top: 50px!important;}
+    .itemholder.threeup .item:nth-child(2), .itemholder.threeup .item:nth-child(4) {margin-right: 0;}
+}
+
+@media (min-width: 900px) {
+    .sectionholder.twoup .section {float: left; width: calc(50% - 120px);}
+    .sectionholder.twoup .section + .section {padding-left: 0;}
+    .itemholder.threeup .item {float: left; width: calc(33.33% - 20px); margin-right: 30px;}
+    .itemholder.threeup .item:nth-child(2) {margin-right: 30px;}
+    .itemholder.threeup .item:nth-child(3) {margin-right: 0;}
 }

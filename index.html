@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=400">
+        <meta id="viewport" name="viewport" content="width=400">
 
         <title>Frisse Plannen</title>
         
@@ -31,7 +31,13 @@
 
         <link rel="canonical" href="http://frisseplannen.nl/">
         <link rel="stylesheet" href="/css/style.css">
-        
+        <script>
+            if (screen.width < 600) {
+              document.getElementById("viewport").setAttribute("content", "width=400");
+            } else {
+              document.getElementById("viewport").setAttribute("content", "width=device-width");
+            }
+        </script>
     </head>
     <body class="home" id="body">
         <div id="top">
@@ -66,35 +72,35 @@
         2- En een fris ontwerp dat jouw gecreëerde inhoud kracht bijzet</em></p>
 </div>
 
+<div class="sectionholder twoup lightgreen">
     <div class="section lightgreen">
-    <p><strong>1- GROENE COMMUNICATIEMIDDELEN.</strong></p>
-    <div class="imagesleft">
-        <div class="img">
-            <img src="/img/groenemiddelen.png" />
-        </div>
-        <p class="small">
-       Drukken op 100% gerecycled papier of kiezen voor
-online content, is vaak helemaal niet zo milieuvriendelijk als jij denkt. 
-Dat kan veel beter! En wij weten hoe.<br /> 
-            <a href="/blogs/artikel-groene-communicatiemiddelen">Lees waarom groen vaak groen lijkt, maar het niet is >></a> </p>
-  
-</div> 
-</div> 
-        <div class="section lightgreen">
-    <p><strong>2- FRIS EN KRACHTIG ONTWERP.</strong></p>
-    <div class="imagesleft">
-        <div class="img">
-            <img src="/img/helderemiddelen.png" />
-        </div>
-        <p class="small">
-        Communicatie over duurzaamheid is vaak complex, omdat het over innovatieve 
-technieken en abstracte zaken als 'warmte', 'energietransitie' of 'gas' gaat. <br /><br />
-        Een goed grafisch ontwerp veheldert de boodschap en brengt mensen in beweging. </p>
-</p>
+        <p><strong>1- GROENE COMMUNICATIEMIDDELEN.</strong></p>
+        <div class="imagesleft">
+            <div class="img">
+                <img src="/img/groenemiddelen.png" />
+            </div>
+            <p class="small">
+        Drukken op 100% gerecycled papier of kiezen voor
+    online content, is vaak helemaal niet zo milieuvriendelijk als jij denkt. 
+    Dat kan veel beter! En wij weten hoe.<br /> 
+                <a href="/blogs/artikel-groene-communicatiemiddelen">Lees waarom groen vaak groen lijkt, maar het niet is >></a> </p>
+        </div> 
+    </div> 
 
-</div> 
-</div> 
-    
+    <div class="section lightgreen">
+        <p><strong>2- FRIS EN KRACHTIG ONTWERP.</strong></p>
+        <div class="imagesleft">
+            <div class="img">
+                <img src="/img/helderemiddelen.png" />
+            </div>
+            <p class="small">
+            Communicatie over duurzaamheid is vaak complex, omdat het over innovatieve 
+    technieken en abstracte zaken als 'warmte', 'energietransitie' of 'gas' gaat. <br /><br />
+            Een goed grafisch ontwerp veheldert de boodschap en brengt mensen in beweging. </p>
+            </p>
+        </div> 
+    </div> 
+</div>
 
 <div class="section carousel">
     <div class="navigation">
@@ -177,40 +183,42 @@ technieken en abstracte zaken als 'warmte', 'energietransitie' of 'gas' gaat. <b
     <strong>PORTFOLIO.</strong><br />
     Selectie ontworpen groene communicatiemiddelen.<br />
     
-    
-    
-        <div style="position: absolute; margin-top: 50px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/opgewekt-op-kop-/';" class="lightgreen">
-            <div class="subtitle">Krant</div>
-        </div>
-        
-        <div style="margin: 40px 0 0; height: 295px; background: url('/img/Krant_mockup_1.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/opgewekt-op-kop-/';"></div>
-        <a class="hoekje" href="/portfolio/opgewekt-op-kop-/" alt="Lees meer over dit project">Meer >></a>
-        
-    
-        <div style="position: absolute; margin-top: 50px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/praatplaat-nofriesland/';" class="lightgreen">
-            <div class="subtitle">Praatplaat</div>
-        </div>
-        
-        <div style="margin: 40px 0 0; height: 295px; background: url('/img/NOfriesland1.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/praatplaat-nofriesland/';"></div>
-        <a class="hoekje" href="/portfolio/praatplaat-nofriesland/" alt="Lees meer over dit project">Meer >></a>
-        
-    
-        <div style="position: absolute; margin-top: 50px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/charettes-tweede-ronde/';" class="lightgreen">
-            <div class="subtitle">Brochure</div>
-        </div>
-        
-        <div style="margin: 40px 0 0; height: 295px; background: url('/img/Charettes2_binnenwerk2.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/charettes-tweede-ronde/';"></div>
-        <a class="hoekje" href="/portfolio/charettes-tweede-ronde/" alt="Lees meer over dit project">Meer >></a>
-        
-    
-        <div style="position: absolute; margin-top: 50px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/presentatiemateriaal-binnenwand/';" class="lightgreen">
-            <div class="subtitle">Presentatiemateriaal</div>
-        </div>
-        
-        <div style="margin: 40px 0 0; height: 295px; background: url('/img/binnenwand.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/presentatiemateriaal-binnenwand/';"></div>
-        <a class="hoekje" href="/portfolio/presentatiemateriaal-binnenwand/" alt="Lees meer over dit project">Meer >></a>
-        
-    
+    <div class="itemholder threeup">
+            
+            
+            <div class="item" style="position: relative;">
+                <div style="position: absolute; margin-top: 10px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/opgewekt-op-kop-/';" class="lightgreen">
+                    <div class="subtitle">Krant</div>
+                </div>
+                <div style="margin: 40px 0 0; height: 295px; background: url('/img/Krant_mockup_1.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/opgewekt-op-kop-/';"></div>
+                <a class="hoekje" href="/portfolio/opgewekt-op-kop-/" alt="Lees meer over dit project">Meer >></a>
+            </div>
+            
+            <div class="item" style="position: relative;">
+                <div style="position: absolute; margin-top: 10px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/praatplaat-nofriesland/';" class="lightgreen">
+                    <div class="subtitle">Praatplaat</div>
+                </div>
+                <div style="margin: 40px 0 0; height: 295px; background: url('/img/NOfriesland1.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/praatplaat-nofriesland/';"></div>
+                <a class="hoekje" href="/portfolio/praatplaat-nofriesland/" alt="Lees meer over dit project">Meer >></a>
+            </div>
+            
+            <div class="item" style="position: relative;">
+                <div style="position: absolute; margin-top: 10px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/charettes-tweede-ronde/';" class="lightgreen">
+                    <div class="subtitle">Brochure</div>
+                </div>
+                <div style="margin: 40px 0 0; height: 295px; background: url('/img/Charettes2_binnenwerk2.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/charettes-tweede-ronde/';"></div>
+                <a class="hoekje" href="/portfolio/charettes-tweede-ronde/" alt="Lees meer over dit project">Meer >></a>
+            </div>
+            
+            <div class="item" style="position: relative;">
+                <div style="position: absolute; margin-top: 10px; padding-right: 5px; cursor: pointer;" onclick="document.location.href='/portfolio/presentatiemateriaal-binnenwand/';" class="lightgreen">
+                    <div class="subtitle">Presentatiemateriaal</div>
+                </div>
+                <div style="margin: 40px 0 0; height: 295px; background: url('/img/binnenwand.jpg') center center / cover; cursor: pointer;" onclick="document.location.href='/portfolio/presentatiemateriaal-binnenwand/';"></div>
+                <a class="hoekje" href="/portfolio/presentatiemateriaal-binnenwand/" alt="Lees meer over dit project">Meer >></a>
+            </div>
+            
+    </div>
 
     <br />
     <a href="/portfolio" class="button">Zie meer ontwerpen >></a>
@@ -221,38 +229,47 @@ technieken en abstracte zaken als 'warmte', 'energietransitie' of 'gas' gaat. <b
  <a href="communicatiemiddelen" class="button">Soorten communicatiemiddelen >></a><br />
 </div>
 
-<div class="section lightgray">
+<div class="section lightgray" style="padding-bottom: 0;">
     <p><strong>REVIEWS.</strong></p>
-    <div class="imagesleft">
-        <div class="img">
-            <img src="/img/headshot1.jpg" />
-            J. van Druten<br />
-            Communicatieadviseur Duurzaamheid
-        </div>
-        <p class="small">
-        ‘In vervolg op eerdere positieve ervaringen, 
-heeft Frisse Plannen een enorme bijdrage geleverd 
-aan de lancering van Energienet Ameland. 
-Carli is super creatief en weet daar als 
-geen ander de juiste inhoud aan te verbinden.’</p>
-        
-        <div class="img">
-            <img src="/img/headshot3.jpg" />
-            Bastiaan Meijer<br />
-            Duurzame (energie) gebiedsontwikkelaar at N-TRA
-        </div>
-        <p class="small">
-        ‘Een uniek en toch ook complex project waar jezelf 
-            razend enthousiast over bent is nog niet zo makkelijk 
-            uit te leggen aan alle verschillende stakeholders, 
-            laat staan ook hun inbreng erin mee te nemen. 
-            Met de ervaring en kunde van Carli hebben we  
-            in een aantal weken een prachtige praatplaat weten 
-            te creëren. Het werkt laagdrempelig, doeltreffend en ziet er 
-            gewoon ontzettend gaaf uit! Ons bord werkt letterlijk 
-            als een magneet voor omstanders. ’</p>
+</div>
 
-</div>        
+<div class="sectionholder twoup lightgray">
+    <div class="section lightgray">
+        <div class="imagesleft">
+            <div class="img">
+                <img src="/img/headshot1.jpg" />
+                J. van Druten<br />
+                Communicatieadviseur Duurzaamheid
+            </div>
+            <p class="small">
+                ‘In vervolg op eerdere positieve ervaringen, 
+                heeft Frisse Plannen een enorme bijdrage geleverd 
+                aan de lancering van Energienet Ameland. 
+                Carli is super creatief en weet daar als 
+                geen ander de juiste inhoud aan te verbinden.’
+            </p>
+         </div>        
+    </div>
+    <div class="section lightgray">
+        <div class="imagesleft" style="min-height: 183px;">
+            <div class="img">
+                <img src="/img/headshot3.jpg" />
+                Bastiaan Meijer<br />
+                Duurzame (energie) gebiedsontwikkelaar at N-TRA
+            </div>
+            <p class="small">
+                ‘Een uniek en toch ook complex project waar jezelf 
+                razend enthousiast over bent is nog niet zo makkelijk 
+                uit te leggen aan alle verschillende stakeholders, 
+                laat staan ook hun inbreng erin mee te nemen. 
+                Met de ervaring en kunde van Carli hebben we  
+                in een aantal weken een prachtige praatplaat weten 
+                te creëren. Het werkt laagdrempelig, doeltreffend en ziet er 
+                gewoon ontzettend gaaf uit! Ons bord werkt letterlijk 
+                als een magneet voor omstanders.’
+            </p>
+        </div>        
+    </div>
 </div>
 
 <div id="blogs" class="section">
@@ -263,26 +280,26 @@ geen ander de juiste inhoud aan te verbinden.’</p>
 </a>
         <br />
         <a href="blogs" class="button">Zie meer artikelen >></a>
-
 </div>
-            <div id="contact" class="section lightgray">
-                <p><strong>CARLI VAN ‘T SCHIP.</strong><br />
-                Jouw frisse plannenverbeelder.</p>
 
-                <div class="imagesleft">
-                    <div class="img">
-                        <img src="/img/carly.png" />
-                    </div>
-                    <p class="small">Wat mij aantrekt aan frisse/innovatieve plannen, 
-                        is dat er een oplossing wordt bedacht voor iets 
-                        dat niet goed (meer) werkt. Zo sta ik zelf ook in het leven.</p>
 
-              
-                <p class="small">De vaak complexe en technische materie vertalen naar 
-                een helder en overtuigend verhaal, maakt dat ik mijn werk erg uitdagend vind.</p>
-              
+<div id="contact" class="section lightgray">
+    <p><strong>CARLI VAN ‘T SCHIP.</strong><br />
+    Jouw frisse plannenverbeelder.</p>
 
-            </div>
+    <div class="imagesleft" style="max-width: 350px;">
+        <div class="img">
+            <img src="/img/carly.png" />
+        </div>
+        <p class="small">Wat mij aantrekt aan frisse/innovatieve plannen, 
+            is dat er een oplossing wordt bedacht voor iets 
+            dat niet goed (meer) werkt. Zo sta ik zelf ook in het leven.</p>
+
+        <p class="small">De vaak complexe en technische materie vertalen naar 
+        een helder en overtuigend verhaal, maakt dat ik mijn werk erg uitdagend vind.</p>
+    
+    </div>
+</div>
 
 
 
