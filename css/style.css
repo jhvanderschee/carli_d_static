@@ -139,6 +139,7 @@ commented bacuse part of inphone display (no longer used)
     .itemholder.threeup .item {float: left; width: calc(50% - 10px); margin-right: 20px;}
     .itemholder.threeup .item > div:nth-child(1) {margin-top: 50px!important;}
     .itemholder.threeup .item:nth-child(2), .itemholder.threeup .item:nth-child(4) {margin-right: 0;}
+    .section.green p {text-align: center; max-width: 700px; margin-left: auto; margin-right: auto;}
 }
 
 @media (min-width: 900px) {
