@@ -29,7 +29,7 @@ commented bacuse part of inphone display (no longer used)
 .header {position: absolute; top: 0; width: 400px; margin: 0 auto; height: 60px; z-index: 3; background: white;}
 .headertext {display: block; padding: 12px 0 0 110px; color: #3eb73c; font-size: 12px; line-height: 1.3;}
 .scrolled .headertext {padding-left: 100px;}
-img {max-width: 100%;}
+img {max-width: 100%; height: auto;}
 .subtitle {text-transform: uppercase; font-size: 12px; line-height: 1em;}
 .section {position: relative; padding: 25px 30px 30px; font-size: 23px; line-height: 1.4;}
 .section .img {position: absolute; z-index: 0;}
