@@ -136,6 +136,7 @@ commented bacuse part of inphone display (no longer used)
     body.home .header + .section > div:nth-child(2) {margin-left: 120px;}
     .itemholder.twoup {overflow: hidden;}
     .itemholder.twoup .item {float: left; width: calc(50% - 10px); margin-right: 20px;}
+	.itemholder.twoup .item > div.lightgreen:first-child {top: 40px;}
     #portfolio .itemholder.twoup .item > div:nth-child(1) {margin-top: 50px!important;}
     .itemholder.twoup .item:nth-child(even) {margin-right: 0;}
     .section {text-align: center;}
