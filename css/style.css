@@ -128,7 +128,7 @@ commented bacuse part of inphone display (no longer used)
         margin-left: auto;
         margin-right: auto;
     }
-    body.home .header + .section > div:nth-child(2) {position: absolute; left: 50%; transform: translateX(-50%); margin-left: 200px;}
+    body.home .header + .section > div:nth-child(2) {position: absolute; left: 50%; transform: translateX(-50%); margin-left: 200px; bottom: 90px!important;}
     .itemholder.twoup {overflow: hidden;}
     .itemholder.twoup .item {float: left; width: calc(50% - 10px); margin-right: 20px;}
 	.itemholder.twoup .item > div.lightgreen:first-child {top: 40px;}
