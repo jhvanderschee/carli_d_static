@@ -128,7 +128,6 @@ commented bacuse part of inphone display (no longer used)
         margin-left: auto;
         margin-right: auto;
     }
-    body.home .header + .section {text-align: left;}
     body.home .header + .section > div {
         left: 50%;
         transform: translateX(-50%);
