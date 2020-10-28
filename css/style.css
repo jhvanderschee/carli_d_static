@@ -113,6 +113,8 @@ commented bacuse part of inphone display (no longer used)
 	top: -9999px;
 }
 */
+body .headertext {opacity: 0;}
+body.scrolled .headertext {opacity: 1;}
 
 @media (min-width: 600px) {
     #top, .header {width: 100%; max-width: 1200px;}
@@ -121,8 +123,8 @@ commented bacuse part of inphone display (no longer used)
     .hoekje {right: 0px;}
     .logo, #menutoggle {left: 60px;}
     #menutoggle {left: auto; right: 60px;}
-    .headertext {padding: 12px 0 0 180px;}
-    .scrolled .headertext {padding-left: 160px;}
+    .headertext {padding: 12px 0 0 100px;}
+    .scrolled .headertext {padding-left: 130px;}
     .button.large {
         max-width: 400px;
         margin-left: auto;
