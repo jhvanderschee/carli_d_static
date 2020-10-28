@@ -116,6 +116,11 @@ commented bacuse part of inphone display (no longer used)
 body .headertext {opacity: 0;}
 body.scrolled .headertext {opacity: 1;}
 
+.section.invisible {display: none;}
+#moreorless::before {content: "meer";}
+.active #moreorless::before {content: "minder";}
+
+
 @media (min-width: 600px) {
     #top, .header {width: 100%; max-width: 1200px;}
     .section, .carousel .navigation {padding: 40px 60px 45px;}
