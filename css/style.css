@@ -62,7 +62,7 @@ p:last-child {margin-bottom: 0;}
 .carousel .navigation {position: absolute; padding: 25px 30px; z-index: 2;}
 .carousel .navigation .dot {float: left; background: transparent; border: 1px solid black; width: 10px; height: 10px; margin: 15px 7px 0 0; border-radius: 15px; cursor: pointer;}
 .carousel .navigation .dot.active {background: black;}
-.slides_container {overflow: auto; transition: margin-left 0.3s ease-in-out;}
+.slides_container {overflow: hidden; transition: margin-left 0.3s ease-in-out;} 
 .slides_container.touch {transition: none;}
 .slide {width: 340px; height: 400px; float: left; padding: 25px 30px; background-repeat: no-repeat;}
 .imagesleft {margin-left: 120px;}
