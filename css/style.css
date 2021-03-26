@@ -120,6 +120,7 @@ body.scrolled .headertext {opacity: 1;}
 #moreorless::before {content: "meer";}
 .active #moreorless::before {content: "minder";}
 
+#over .img {bottom: 0;}
 
 @media (min-width: 600px) {
     #top, .header {width: 100%; max-width: 1200px;}
