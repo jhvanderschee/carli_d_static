@@ -49,7 +49,7 @@ function scrollPageTo(event) {
     else element = '';
     if(element) doScroll(element);
     else {
-        if(id=='portfolio') window.location.href='/#'+id;
+        if(id=='portfolio' || id=='werkwijze' ||  id=='over') window.location.href='/#'+id;
         else window.location.href='/'+id;
     }
     menuToggle();
