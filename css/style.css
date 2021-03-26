@@ -142,7 +142,7 @@ body.scrolled .headertext {opacity: 1;}
     .itemholder.twoup .item:nth-child(even) {margin-right: 0;}
     .section {text-align: center;}
     .section .slide {text-align: left;}
-    .section.green p {max-width: 700px; margin-left: auto; margin-right: auto;}
+    .section.green p {max-width: 500px; margin-left: auto; margin-right: auto;}
     #portfolio, #blogs, #reviews, #communicatiemiddelen, #over, .sectionholder.twoup .section > p {text-align: center;}
     #portfolio .itemholder, #blogs .bloglink, .imagesleft {text-align: left;}
     #portfolio .itemholder, #blogs .bloglink, .itemholder.twoup {max-width: 850px; margin-left: auto; margin-right: auto;}
