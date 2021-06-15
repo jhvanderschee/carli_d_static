@@ -101,6 +101,30 @@ h2 {font-size: 16px;}
 .rotating:hover {animation-name: spin; animation-duration: 300ms; animation-iteration-count: infinite; animation-timing-function: linear;}
 .hoekje {background: url(/img/hoekje.png) center center / cover no-repeat; color: #E94927; text-decoration: none; width: 80px; height: 10px; position: absolute; margin-top: -79px; right: 0px; text-transform: uppercase; font-size: 12px; line-height: 1em; padding: 55px 0 15px; text-align: right;}
 
+.video::after, .video::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: #cdedca; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 100%;
+    pointer-events: none;
+}
+
+.video::before {
+    width: 0; 
+    height: 0; 
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent; 
+    border-left: 20px solid black;
+    background: none;
+    z-index: 1;
+    border-radius: 0;
+    margin-left: 3px;
+}
 
 /* way off screen 
 commented bacuse part of inphone display (no longer used)
@@ -158,6 +182,7 @@ body.scrolled .headertext {opacity: 1;}
     .blogcontent {max-width: 398px; margin-left: auto; margin-right: auto; text-align: left;}
     body.communicatiemiddelen .section {max-width: 450px; margin-left: auto; margin-right: auto;}
     p img {min-width: 100%; height: auto;}
+    .gallery {bottom: 0;}
 }
 
 @media (min-width: 900px) {
