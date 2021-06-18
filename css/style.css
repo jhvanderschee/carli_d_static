@@ -104,8 +104,8 @@ h2 {font-size: 16px;}
 .video::after, .video::before {
     position: absolute;
     content: "";
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     background: #E94927; 
     top: 50%;
     left: 50%;
