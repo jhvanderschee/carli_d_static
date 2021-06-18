@@ -104,8 +104,8 @@ h2 {font-size: 16px;}
 .video::after, .video::before {
     position: absolute;
     content: "";
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background: #E94927; 
     top: 50%;
     left: 50%;
@@ -117,9 +117,9 @@ h2 {font-size: 16px;}
 .video::before {
     width: 0; 
     height: 0; 
-    border-top: 13px solid transparent;
-    border-bottom: 13px solid transparent; 
-    border-left: 20px solid white;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent; 
+    border-left: 25px solid white;
     background: none;
     z-index: 1;
     border-radius: 0;
