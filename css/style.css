@@ -106,7 +106,7 @@ h2 {font-size: 16px;}
     content: "";
     width: 50px;
     height: 50px;
-    background: #cdedca; 
+    background: #E94927; 
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -119,7 +119,7 @@ h2 {font-size: 16px;}
     height: 0; 
     border-top: 13px solid transparent;
     border-bottom: 13px solid transparent; 
-    border-left: 20px solid black;
+    border-left: 20px solid white;
     background: none;
     z-index: 1;
     border-radius: 0;
