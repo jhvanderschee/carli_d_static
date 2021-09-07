@@ -66,7 +66,7 @@ p:last-child {margin-bottom: 0;}
 .slides_container.touch {transition: none;}
 .slide {width: 340px; height: 400px; float: left; padding: 25px 30px; background-repeat: no-repeat;}
 .imagesleft {margin-left: 120px;}
-.imagesleft .img {position: absolute; margin-left: -130px; width: 120px; font-size: 12px; line-height: 1.2;}
+.imagesleft .img {position: absolute; margin-left: -130px; width: 130px; font-size: 12px; line-height: 1.2;}
 .imagesleft .img img {width: 100%; margin-bottom: 5px;}
 .small {font-size: 16px; line-height: 1.2;}
 .smaller {font-size: 12px; line-height: 1.2;}
