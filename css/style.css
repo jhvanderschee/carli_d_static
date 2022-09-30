@@ -42,6 +42,7 @@ img {max-width: 100%; height: auto;}
 .green {background-color: #3eb73c!important; color: white;}
 .gray {background-color: #d6d8d5!important;}
 .darkred {background-color: #A90000!important; color: white;}
+.lightpink {background-color: #e5d8da!important;}
 
 .logo, #menutoggle {position: absolute; top: 15px; left: 30px; width: 70px;}
 #menutoggle {cursor: pointer; left: auto; right: 30px; width: 30px; top: 17px;}
