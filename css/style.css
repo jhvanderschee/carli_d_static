@@ -139,7 +139,7 @@ commented bacuse part of inphone display (no longer used)
 	top: -9999px;
 }
 */
-body .headertext {opacity: 0;}
+body .headertext {opacity: 0; pointer-events: none;}
 body.scrolled .headertext {opacity: 1;}
 
 .section.invisible {display: none;}
