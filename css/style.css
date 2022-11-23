@@ -99,7 +99,7 @@ label input[type="radio"] {width: auto; display: inline-block;}
 .gallerythumbnail {width: 23%; margin-right: 2%; padding-bottom: 19%; float: left; background-size: cover; background-position: center center; cursor: pointer;}
 .gallerythumbnail.active {opacity: 0.25;}
 h2 {font-size: 16px;}
-h4 {color: gray;}
+h4 {color: gray; font-weight: normal;}
 @keyframes spin {from{transform: rotate(0deg);}to{transform: rotate(360deg);}}
 .rotating:hover {animation-name: spin; animation-duration: 300ms; animation-iteration-count: infinite; animation-timing-function: linear;}
 .hoekje {background: url(/img/hoekje.png) center center / cover no-repeat; color: #E94927; text-decoration: none; width: 80px; height: 10px; position: absolute; margin-top: -79px; right: 0px; text-transform: uppercase; font-size: 12px; line-height: 1em; padding: 55px 0 15px; text-align: right;}
