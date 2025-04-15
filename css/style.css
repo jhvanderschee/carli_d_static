@@ -151,7 +151,7 @@ body.scrolled .headertext {opacity: 1;}
 #over .img img {margin-bottom: 0;}
 
 @media (min-width: 600px) {
-    #top, .header {width: 100%; max-width: 1200px;}
+    #top, .header {width: 100%;}
     .section, .carousel .navigation {padding: 40px 60px 45px;}
     .section.carousel {padding: 0;}
     .hoekje {right: 0px;}
